@@ -11,6 +11,9 @@ Command
 --armonize [dir_or_file] [--update] [--no-render] [--pattern:expression]
 ```
 
+- --update : force update of the file
+- --no-render: flag disable rendering 
+- --pattern:expression set php regex expression used to select files fot be harmonized.
 
 ## Supports
  
