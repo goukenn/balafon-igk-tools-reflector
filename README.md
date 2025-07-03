@@ -13,7 +13,7 @@ Command
 
 - --update : force update of the file
 - --no-render: flag disable rendering 
-- --pattern:expression set php regex expression used to select files fot be harmonized.
+- --pattern:expression set php regex expression used to fiter files selection.
 
 ## Supports
  
