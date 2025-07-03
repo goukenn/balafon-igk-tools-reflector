@@ -3,18 +3,18 @@
 2025 @C.A.D.BONDJEDOUE
 
 
-##  php code structure - 
+Reflector is a Balafon's Framework Module tool designed to harmonize and manage your code structure effectively. 
 
-
-## commands
+Command
 
 ```sh
---armonize [dir_or_file] [--update] [--no-render] 
+--armonize [dir_or_file] [--update] [--no-render] [--pattern:expression]
 ```
 
-## supports
 
-## SUPPORT [FIX]()
-only non mixed file supported 
+## Supports
+ 
+- Only non-mixed PHP files are supported
 
-[Documentation](//igkdev.com/balafon/modules?id=com.igkdev.armonizer)
+
+For full documentation, visit:[https://igkdev.com/balafon/modules?id=igk.tool.reflector](//igkdev.com/balafon/modules?id=igk.tool.reflector)

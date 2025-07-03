@@ -1,6 +1,7 @@
 {
     "name": "igk/tools/Reflector",
     "author": "C.A.D. BONDJE DOUE",
+    "display":"Reflector",
     "version": "1.0",
     "require": null
 }
