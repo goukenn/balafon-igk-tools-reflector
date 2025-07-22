@@ -3,10 +3,9 @@
 // @filename: DCMethodInfo.php
 // @date: 20250703 14:44:30
 // @desc: 
-
 namespace igk\tools\Reflector;
 /**
- * method info 
+ * method/funciton definition storage 
  * @package 
  */
 class DCMethodInfo{
@@ -20,12 +19,22 @@ class DCMethodInfo{
     var $code;
     var $returnType;
     var $isRef;
-
+    /**
+     * the method definition is nested 
+     * @var bool
+     */
+    var $isNested = false;
     /**
      * doc comment
      * @var ?string
      */
     var $phpDocComment;
+    /**
+     * 
+     * @var bool
+     */
+    var $conditional = false;
+    var $conditional_condition = null;
     public function isEmpty(){
         return empty($this->code);
     }

@@ -3,7 +3,6 @@
 // @filename: ReflectorContainer.php
 // @date: 20250703 14:44:13
 // @desc: 
-
 namespace igk\tools\Reflector;
 /**
  * 
@@ -42,14 +41,17 @@ class ReflectorContainer{
      * @var mixed
      */
     var $global_comments;
-
     /**
      * 
      * @var bool
      */
     var $singleDefinitionPerFile = true;
-
     var $noFunctionBody = false;
-
     var $renderMultiple= false;
+    var $namespace;
+    /**
+     * globa definition script 
+     * @var mixed
+     */
+    var $global_script;
 }
